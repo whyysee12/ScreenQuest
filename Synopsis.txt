@@ -1,0 +1,55 @@
+# ScreenQuest – Project Synopsis
+
+## Project Title
+
+**ScreenQuest – Screen Time Challenge App**
+
+## Introduction
+
+ScreenQuest is a frontend web application designed to encourage healthier digital habits by helping users monitor and manage their daily screen time. The application provides a simple and interactive interface where users can set screen time goals, complete daily challenges, track their progress, and maintain streaks. It aims to motivate users to reduce unnecessary screen usage and improve productivity through a gamified experience.
+
+## Objective
+
+The primary objective of ScreenQuest is to promote digital well-being by encouraging users to spend less time on their devices and develop healthier screen usage habits. The project also demonstrates frontend web development skills using HTML, CSS, and JavaScript.
+
+## Features
+
+* Dashboard displaying daily screen time
+* Daily screen time goal
+* Progress bar for goal tracking
+* Daily challenge cards
+* Streak tracking system
+* Achievement badges
+* Responsive and user-friendly interface
+
+## Technology Stack
+
+* **Frontend:** HTML5, CSS3, JavaScript
+* **Backend:** None
+* **Database:** None
+
+## Working
+
+The application displays a dashboard where users can manually enter or update their daily screen time. Based on the entered value, the app calculates the user's progress toward their daily goal and updates the progress bar. Users can complete daily challenges, earn achievement badges, and maintain streaks by consistently meeting their goals. Since this is a frontend-only project, all interactions occur within the browser without requiring a backend server.
+
+## Advantages
+
+* Encourages healthier digital habits
+* Simple and easy-to-use interface
+* Responsive design for different devices
+* Helps users stay motivated through challenges and rewards
+* Lightweight application with no installation required
+
+## Future Scope
+
+* User authentication
+* Automatic screen time synchronization with devices
+* Weekly and monthly analytics
+* Push notifications and reminders
+* Cloud storage for user data
+* Leaderboards and social challenges
+* Mobile application version
+
+## Conclusion
+
+ScreenQuest is a simple yet effective frontend web application that demonstrates the use of HTML, CSS, and JavaScript to create an interactive user experience. It promotes awareness of screen time usage while encouraging users to build productive digital habits through challenges, progress tracking, and achievement-based motivation.
