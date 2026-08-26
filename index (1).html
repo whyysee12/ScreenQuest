@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScreenQuest - Manage Your Screen Time</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>ScreenQuest</h1>
+    <p>Build healthier digital habits, one day at a time.</p>
+  </header>
+
+  <!-- Main Dashboard -->
+  <main>
+
+    <!-- Daily Screen Time Goal -->
+    <section id="daily-goal">
+      <h2>Today's Screen Time Goal</h2>
+      <p>Goal: <span id="goal-hours">3 hours</span></p>
+      <p>Used so far: <span id="used-hours">1 hour 20 minutes</span></p>
+    </section>
+
+    <!-- Progress Bar -->
+    <section id="progress-section">
+      <h2>Progress</h2>
+      <label for="screen-time-progress">Daily goal progress:</label>
+      <progress id="screen-time-progress" value="40" max="100">40%</progress>
+      <p><span id="progress-percent">40%</span> of today's goal used</p>
+    </section>
+
+    <!-- Daily Challenges -->
+    <section id="challenges">
+      <h2>Daily Challenges</h2>
+      <ul>
+        <li>
+          <input type="checkbox" id="challenge-1">
+          <label for="challenge-1">No phone for the first 30 minutes after waking up</label>
+        </li>
+        <li>
+          <input type="checkbox" id="challenge-2">
+          <label for="challenge-2">Take a 10-minute screen-free walk</label>
+        </li>
+        <li>
+          <input type="checkbox" id="challenge-3">
+          <label for="challenge-3">Keep social media use under 30 minutes</label>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Streak Tracker -->
+    <section id="streak-tracker">
+      <h2>Streak Tracker</h2>
+      <p>Current streak: <span id="current-streak">5 days</span></p>
+      <p>Longest streak: <span id="longest-streak">12 days</span></p>
+    </section>
+
+    <!-- Achievement Badges -->
+    <section id="badges">
+      <h2>Achievement Badges</h2>
+      <ul id="badge-list">
+        <li>
+          <img src="assets/icons/badge-starter.png" alt="Starter badge">
+          <p>Starter: Completed your first day</p>
+        </li>
+        <li>
+          <img src="assets/icons/badge-week.png" alt="One week streak badge">
+          <p>Consistent: 7-day streak</p>
+        </li>
+        <li>
+          <img src="assets/icons/badge-focus.png" alt="Focus master badge">
+          <p>Focused: Stayed under goal 5 times</p>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 ScreenQuest. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
