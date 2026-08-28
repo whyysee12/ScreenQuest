@@ -36,7 +36,7 @@ ScreenQuest/
 2. Open the project folder.
 3. Double-click `index.html` or open it in any web browser.
 
-No installation or setup is required.
+No installation/setup is required.
 
 ## Future Improvements
 - User login and authentication
